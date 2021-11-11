@@ -1,0 +1,361 @@
+/* ------------- RESET ------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ------------- RESET ------------- */
+
+/* ------------- HEADER ------------- */
+
+.navbar-brand span {
+  color: #f97d26;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 2.18rem;
+}
+
+.btn-primary.custom-btn {
+  background-color: #f97d26;
+  border: none;
+}
+
+.btn-primary.custom-btn:hover {
+  background-color: #fde5ca;
+  border: none;
+}
+
+/* ------------- HEADER ------------- */
+
+/* ------------- Section- quality ------------- */
+
+main {
+  background-image: url('../img/Dots-8px.png');
+}
+
+.img-fluid.img-custom {
+  width: 100% \9;
+}
+
+.hire-us h2 {
+  color: #f8982c;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 6.25rem;
+  line-height: 7.31rem;
+}
+
+.hire-us p {
+  color: #7c7c7c;
+  font-family: 'Roboto';
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 3rem;
+}
+
+.btn-primary.custom-btn-hire {
+  background-color: #fde5ca;
+  color: #f8982c;
+  font-family: 'Roboto';
+  font-size: 2.18rem;
+  font-weight: 500;
+  border: none;
+}
+
+.btn-primary.custom-btn-hire:hover {
+  background-color: #f8982c;
+  color: #fff;
+}
+
+/* ------------- Section- quality ------------- */
+/* ------------- Section- Companies ------------- */
+.companies {
+  background-image: url('../img/Dots-8px.png');
+  background-color: #fafafa;
+}
+
+.companies h2,
+p {
+  color: #515151;
+}
+
+.companies h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.75rem;
+  line-height: 4.37rem;
+}
+
+.companies p {
+  font-family: 'Nunito';
+  font-size: 1.2rem;
+  line-height: 1.68rem;
+}
+
+.img-fluid.img-companies {
+  width: 200px;
+}
+/* ------------- Section- Companies ------------- */
+/* ------------- Section- Products ------------- */
+
+.products h2 {
+  color: #f8982c;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5rem;
+}
+
+.card {
+  border-radius: 3%;
+}
+
+.card h5 {
+  font-family: 'Nunito';
+  font-size: 1.8rem;
+}
+
+.card-text {
+  color: #989898;
+  font-family: 'Nunito';
+  font-size: 1.2rem;
+}
+
+.card.writing,
+.card.writing h5 {
+  background-color: #fefcfe;
+  border-color: #be49e8;
+  color: #be49e8;
+}
+
+.card.graphic,
+.card.graphic h5 {
+  background-color: #fafcff;
+  border-color: #5398e9;
+  color: #5398e9;
+}
+
+.card.dev,
+.card.dev h5 {
+  background-color: #fafffc;
+  border-color: #2bbc5d;
+  color: #2bbc5d;
+}
+
+.absolute-agency {
+  top: 20px;
+  right: 15px;
+}
+/* ------------- Section- Products ------------- */
+/* ------------- Section- Testmonial ------------- */
+
+.testmonial h2 {
+  color: #f8982c;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 3.75rem;
+}
+
+.absolute-pos {
+  top: -40px;
+  left: -5px;
+}
+
+.card {
+  background-color: #fffcf8;
+  border-color: #ffa540;
+}
+
+/* ------------- footer ------------- */
+
+footer {
+  background-image: url('../img/Group4.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffa540;
+  font-family: 'Roboto';
+}
+
+footer h3,
+footer a,
+footer h4,
+footer p,
+footer i,
+footer ul li {
+  color: #fff;
+}
+
+footer a,
+.endereco ul li {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.footer-logo {
+  left: -15px;
+  top: 40px;
+}
+
+.footer-logo h3 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.footer-logo h4 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.get-touch {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.copy {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+/* ------------- Responsividade ------------- */
+
+@media (max-width: 1200px) {
+  .hire-us h2 {
+    font-size: 5.25rem;
+    line-height: 6.31rem;
+  }
+
+  .hire-us p {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+  }
+
+  .img-fluid.img-companies {
+    width: 150px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hire-us h2 {
+    font-size: 4.25rem;
+    line-height: 6.31rem;
+  }
+
+  .hire-us p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .img-fluid.img-companies {
+    width: 100px;
+  }
+
+  .products h2 {
+    font-size: 3.75rem;
+  }
+
+  .img-fluid.img-product {
+    width: 50px;
+  }
+
+  .card h5 {
+    font-family: 'Nunito';
+    font-size: 1.3rem;
+  }
+
+  .card-text {
+    color: #989898;
+    font-family: 'Nunito';
+    font-size: 1rem;
+  }
+
+  .testmonial h2 {
+    font-size: 2.75rem;
+  }
+
+  .footer-logo h3 {
+    font-size: 2rem;
+  }
+
+  .footer-logo p {
+    font-size: 1rem;
+  }
+
+  .get-touch {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  .img-fluid.img-companies {
+    width: 260px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand span {
+    font-size: 1.12rem;
+  }
+
+  .navbar-brand img {
+    height: 23px;
+    width: auto;
+  }
+
+  .hire-us h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .hire-us p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.87rem;
+  }
+
+  .btn-primary.custom-btn-hire {
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: none;
+  }
+
+  .companies h2 {
+    color: #f8982c;
+    font-size: 3rem;
+    line-height: 4.37rem;
+  }
+
+  .companies p {
+    font-size: 1.2rem;
+    line-height: 1.68rem;
+  }
+
+  .img-fluid.img-companies {
+    width: 200px;
+  }
+
+  footer {
+    background-image: url('../img/footer-mobile.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+  }
+
+  .footer-img {
+    visibility: hidden;
+  }
+
+  .footer-logo {
+    text-align: center;
+    left: 29%;
+  }
+}
